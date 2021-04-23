@@ -2,7 +2,7 @@
 
 <img src="https://user-images.githubusercontent.com/65585002/115801594-21660000-a3ab-11eb-88a0-3dddb0c1afbe.png" height="200" align="right">
 <p align="left">ProtectImage.js is a Javascript library that helps prevent image theft by disabling traditional user interactions to download/copy images.</p>
-ProtectImage.js uses HTML5 anvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) and the `protected` attribute in images to protect your images. It disables and prevents the client from downloading, copying and copying image addresses by porting the image into a canvas. Unlike layer-protected images, this prevents the source of the image from being visible through developer tools.
+ProtectImage.js uses HTML5 [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) and the `protected` attribute in images to protect your images. It disables and prevents the client from downloading, copying and copying image addresses by porting the image into a canvas. Unlike layer-protected images, this prevents the source of the image from being visible through developer tools.
 <hr>
 
 ## ProtectImage.js requires 2 steps - that's it
