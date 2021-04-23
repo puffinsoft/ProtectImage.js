@@ -40,7 +40,7 @@ ProtectImageJS.init()
 
 #### Option B: `.selective()`
 
-If you want to add custom images, use `.selective()` and pass an array of images as the parameter like so:
+If you want to protect a custom array of images, use `.selective()` and pass an array of images as the parameter like so:
 
 ```javascript
 ProtectImageJS.selective(document.getElementsByTagName("img"))
