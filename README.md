@@ -37,3 +37,5 @@ ProtectImageJS.init()
 **Note:** It is recommend to wrap `.init()` in a `window.onload` event to ensure the image finishes loading and styles are computed.
 
 And you're done!
+
+### See the live demo on JSFiddle [here](https://jsfiddle.net/ColonelParrot/he9ajn28/) (https://jsfiddle.net/ColonelParrot/he9ajn28/)
