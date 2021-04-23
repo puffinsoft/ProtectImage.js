@@ -26,15 +26,29 @@ For example:
 <img src="your/src" protected/>
 ```
 
+**If you have a lot of images and find it tedious to add the `protected` attribute to every one of them, skip to Option B of Step 3**
+
 ### Step 3: Initialize ProtectImageJS
 
-In Javascript, add"
+#### Option A: `.init()` (if you used the `protected` attribute)
+
+In Javascript, add:
 
 ```javascript
 ProtectImageJS.init()
 ```
 
-**Note:** It is recommend to wrap `.init()` in a `window.onload` event to ensure the image finishes loading and styles are computed.
+#### Option B: `.selective()`
+
+If you want to add custom images, use `.selective()` and pass an array of images as the parameter like so:
+
+```javascript
+ProtectImageJS.selective(document.getElementsByTagName("img"))
+```
+
+This will protect every single image on the page
+
+**Note:** It is recommend to wrap ProtectImageJS functions in a `window.onload` event to ensure the image finishes loading and styles are computed.
 
 And you're done!
 
