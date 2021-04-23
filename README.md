@@ -1,7 +1,7 @@
 # ProtectImage.js
 
 <img src="https://user-images.githubusercontent.com/65585002/115808078-ca1a5c80-a3b7-11eb-9b13-5ba146baef3a.png" height="200" align="right" alt="ProtectImage.js">
-ProtectImage.js is a Javascript library that helps prevent image theft by disabling traditional user interactions to download/copy images.
+ProtectImage.js is a Javascript library that helps prevent image theft by disabling traditional user interactions to download/copy images. This is useful for copyrighted images.
 <hr>
 
 
