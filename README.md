@@ -8,7 +8,7 @@ ProtectImage.js is a Javascript library that helps prevent image theft by disabl
 ProtectImage.js uses HTML5 [CanvasAPI](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) and the `protected` attribute in images to protect your images. It disables and prevents the client from downloading, copying and copying image addresses by porting the image into a canvas. Unlike layer-protected images, this prevents the source of the image from being visible through developer tools.
 
 
-## ProtectImage.js requires 2 steps - that's it
+## ProtectImage.js requires 3 steps - that's it
 
 ### Step 1: Import ProtectImage.js
 
@@ -24,6 +24,14 @@ For example:
 
 ```html
 <img src="your/src" protected/>
+```
+
+### Step 3: Initialize ProtectImageJS
+
+In Javascript, add"
+
+```javascript
+ProtectImageJS.init()
 ```
 
 And you're done!
