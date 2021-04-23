@@ -34,4 +34,6 @@ In Javascript, add"
 ProtectImageJS.init()
 ```
 
+**Note:** It is recommend to wrap `.init()` in a `window.onload` event to ensure the image finishes loading and styles are computed.
+
 And you're done!
