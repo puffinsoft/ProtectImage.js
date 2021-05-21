@@ -30,23 +30,25 @@ For example:
 
 ### Step 3: Initialize ProtectImageJS
 
-#### Option A: `.init()` (if you used the `protected` attribute)
+#### Option A: `ProtectImageJS.getLabelledImages()` (if you used the `protected` attribute)
 
-In Javascript, add:
-
-```javascript
-ProtectImageJS.init()
-```
-
-#### Option B: `.selective()`
-
-If you want to protect a custom array of images, use `.selective()` and pass an array of images as the parameter like so:
+In Javascript, use:
 
 ```javascript
-ProtectImageJS.selective(document.getElementsByTagName("img"))
+ProtectImageJS.protect(ProtectImageJS.getLabelledImages())
 ```
 
-This will protect every single image on the page
+`ProtectImageJS.getLabelledImages()` finds all images with the `protected` attribute.
+
+#### Option B: Retrieve all image tags manually
+
+If you want to protect a custom array of images, get all elements like so:
+
+```javascript
+ProtectImageJS.protect(document.querySelectorAll("img"))
+```
+
+This will protect every single image on the page.
 
 **Note:** It is recommend to wrap ProtectImageJS functions in a `window.onload` event to ensure the image finishes loading and styles are computed.
 
