@@ -15,7 +15,7 @@ ProtectImage.js uses HTML5 [CanvasAPI](https://developer.mozilla.org/en-US/docs/
 Add the following to the `<head>` tag of your page:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/ColonelParrot/ProtectImage.js@latest/src/script.min.js"></script>
+https://cdn.jsdelivr.net/gh/ColonelParrot/ProtectImage.js@v1.1/src/ProtectImage.min.js
 ```
 
 ### Step 2: Add the protected attribute to images you would like to protect
