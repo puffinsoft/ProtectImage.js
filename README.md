@@ -54,4 +54,4 @@ This will protect every single image on the page.
 
 And you're done!
 
-### See the live demo on JSFiddle [here](https://jsfiddle.net/ColonelParrot/he9ajn28/) (https://jsfiddle.net/ColonelParrot/he9ajn28/)
+### See the live demo on JSFiddle [here](https://jsfiddle.net/ColonelParrot/g4qvtLer/) (https://jsfiddle.net/ColonelParrot/g4qvtLer/)
